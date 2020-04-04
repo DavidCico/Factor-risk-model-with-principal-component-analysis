@@ -83,7 +83,7 @@ read_csv = True
 <p align="justify">By running the main script, the resulting csv file '<em>pcaMappingsResults.csv</em>' is generated, containing the mappings coefficients of securities to risk factors.</p>
 
 <p align="center">
-<img src="https://github.com/DavidCico/Factor-risk-model-with-principal-component-analysis/blob/master/mappings_results.JPG" width="1200" height="330">
+<img src="https://github.com/DavidCico/Factor-risk-model-with-principal-component-analysis/blob/master/mappings_results.JPG" width="1500" height="330">
 </p>
 
 ## Contributing
