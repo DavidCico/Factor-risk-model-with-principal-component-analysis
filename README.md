@@ -49,9 +49,9 @@ https://pypi.org/project/yfinance/ for the yfinance module
 
 <li><div align="justify">'<em>var_exp_weighted.py</em>' in which exponentially weighted VaR calculation is implemented. </div</li>
   
-<li><div align="justify">The '<em>nasdaq_data</em>' directory, contains the list of NASDAQ listed securities, and the 'fetch_nasdaq_data.py' if the user wanna pull data from all the securities in the list. </div></li>
+<li><div align="justify">The '<em>nasdaq_data</em>' directory, contains the list of NASDAQ listed securities, and the 'fetch_nasdaq_data.py' script if the user wanna pull data from all the securities in the list. </div></li>
 
-<li><div align="justify">Similarly, in the '<em>snp_data</em>' directory, there is a list of S&P500 symbols, with 'fetch_snp_data.py' script that can be run to get the data from all these symbols (if it still exists). </div></li>
+<li><div align="justify">Similarly, in the '<em>snp_data</em>' directory, there is a list of S&P500 symbols, with 'fetch_snp_data.py' script that can be run to get the data from all these symbols. </div></li>
 
 ### Running the program
 
