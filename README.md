@@ -91,4 +91,5 @@ We use [SemVer](http://semver.org/) for versioning.
 
 * **David Cicoria** - *Initial work* - [DavidCico](https://github.com/DavidCico)
 
+
 See also the list of [contributors](https://github.com/DavidCico/Factor-risk-model-with-principal-component-analysis/graphs/contributors) who participated in this project.
