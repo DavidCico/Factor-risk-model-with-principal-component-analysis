@@ -9,7 +9,7 @@
 
 ### Prerequisites
 
-<p align="justify">You need Python 3.x to run the following code.  You can have multiple Python versions (2.x and 3.x) installed on the same system without problems. Python needs to be first installed then SciPy, and finally Seaborn as there are dependencies on packages.</p>
+<p align="justify">You need Python 3.x to run the following code.  You can have multiple Python versions (2.x and 3.x) installed on the same system without problems. Python needs to be first installed then SciPy</p>.
 
 In Ubuntu, Mint and Debian you can install Python 3 like this:
 
@@ -19,21 +19,15 @@ Alongside Python, the SciPy packages are also required. In Ubuntu and Debian, th
 
     sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
 
-For pipelining and parallel tasks, the joblib library can be installed using the <a href="https://pypi.org/project/pip/">pip</a> package manager:
+For getting the data of price timeseries, we use the yfinance package that can be installed using the <a href="https://pypi.org/project/pip/">pip</a> package manager:
 
-    pip install joblib
+    pip install yfinance
 
-Finally, the Jupyter Notebook which can be installed through Python's package manager:
-
-    pip3 install --upgrade pip
-    pip3 install jupyter
-
-For other Linux flavors, OS X and Windows, packages are available at:
+For more information on the packages and their installation process, check the below links:
 
 http://www.python.org/getit/ for Python    
 https://www.scipy.org/install.html for the SciPy ecosystem    
-https://joblib.readthedocs.io/en/latest/installing.html for the joblib library    
-https://jupyter.readthedocs.io/en/latest/install.html for the Jupyter Notebook    
+https://pypi.org/project/yfinance/ for the yfinance module 
 
 
 ### File descriptions
