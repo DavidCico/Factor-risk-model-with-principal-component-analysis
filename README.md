@@ -35,25 +35,20 @@ https://pypi.org/project/yfinance/ for the yfinance module
 ### File descriptions
 <ul>
   
-<li><div align="justify">'<em>Backtester_loop.py</em>' in which the Backtest class hierarchy encapsulates the other classes, to carry out a nested while-loop event-driven system in order to handle the events placed on the Event Queue object.</div></li>
+<li><div align="justify">'<em>data_feed.py</em>' in which the data query from Yahoo finance and dataframe manipulations functions are located.</div></li>
     
-<li><div align="justify">'<em>DataHandler.py</em>' which defines a class that gives all subclasses an interface for providing market data to the remaining components within the system. Data can be obtained directly from the web, a database or be read from CSV files for instance.</div></li>
+<li><div align="justify">'<em>main.py</em>' which is the main Python program, englobing all the different subroutines, and where the different parameters to initialize the pca mappings are specified. </div></li>
 
-<li><div align="justify">'<em>Events.py</em>' with four types of events (market, signal, order and fill), which allow communication between the above components via an event queue, are implemented.</div></li>
+<li><div align="justify">'<em>mappings.py</em>' contains the functions of mapping securities to risk factors</div></li>.
 
-<li><div align="justify">'<em>Execution.py</em>' to simulate the order handling mechanism and ultimately tie into a brokerage or other
-means of market connectivity.</div</li>
+<li><div align="justify">'<em>pcaMappingsResults.csv</em>', the csv file obtained as the result of running the code. It contains the mapping coefficients of securities to risk factors, as well as some information such as 'pct_systematic_ratio' (ratio of variance explained by the PCA), correlation to PCA or mapped VaR</div</li>.
 
-<li><div align="justify">'<em>Main.py</em>' which is the main Python program, englobing all the different subroutines, and where the different parameters to initialize the backtesting simulations are specified.</div</li>
+<li><div align="justify">'<em>portfolio_decomposition.py</em>' is where the main content of the program is located. The different functions in this file, consist of the generation of PCA mappings for the risk factor series, and the linear regression of securities prices to PCA prices, in order to generate the final mapping of securities to factors.</div</li>
 
-<li><div align="justify">'<em>Performance.py</em>' in which performance assessment criteria are implemented such as the Sharpe ratio and drawdowns.</div</li>
+<li><div align="justify">'<em>securities_and_factors.csv</em>' to be read by the program depending on the user's choice (get data from Yahoo or csv file).</div</li>
+
+<li><div align="justify">'<em>var_exp_weighted.py</em>' in which exponentially weighted VaR calculation is implemented.</div</li>
   
-<li><div align="justify">'<em>Plot_Performance.py</em>' to plot figures based on the equity curve obtained after backtesting.</div</li>
-  
-<li><div align="justify">'<em>Portfolio.py</em>' that keeps track of the positions within a portfolio, and generates orders of a fixed quantity of stock based on signals.</div></li>
-
-<li><div align="justify">'<em>Strategy.py</em>' to generate a signal event from a particular strategy to communicate to the portfolio.</div></li>
-
 <li><div align="justify">In the '<em>Strategies</em>' directory, different trading strategies are implemented to be used for backtesting:</div></li>
 
   <ul>
