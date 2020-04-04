@@ -27,10 +27,11 @@ factors_symbols = ['^NDX', '^STOXX50E', '^HSI', 'IEF', 'SHY', 'VIXY', 'LQD', 'HY
 securities_symbols = ['AAPL', 'MSFT', 'AMZN', 'BRK-A', 'AC.PA', 'AIR.PA', 'DAL', 'MAR', 'DIS', 'SIX', 'VOW3.DE',
                       '0700.HK', '2318.HK', 'BABA', '0005.HK', '1299.HK', 'ENI.MI', 'ALV.DE']
 
-securities_symbols.extend(factors_symbols)
 start_date = "2015-01-01"
 end_date = "2020-01-01"
 read_csv = True
+
+securities_symbols.extend(factors_symbols)
 
 if __name__ == "__main__":
     if read_csv and path.exists("securities_and_factors.csv"):
