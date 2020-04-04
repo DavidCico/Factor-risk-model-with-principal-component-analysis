@@ -1,5 +1,7 @@
 # Factor-risk-model-with-principal-component-analysis
-<p align="justify">In this repository, a time series analysis is conducted using both regular and seasonal ARIMA models. The study is led on the historical price of the XRP coin with Python. A hypergrid search of optimal parameters for both models is also presented.</p>
+<p align="justify">In this repository, principal component analysis (PCA) is used on price time series of assets/securities to give an underlying composition into those of some selected risk factors price timeseries. In this example, we use different indexes tracking the NASDAQ, EUROSTOXX50, HSI or different bond markets to track a global market of different securities. Their price timeseries define a statistical risk model.</p>
+
+<p align="justify">To elaborate further, the use of the PCA technique enables the formulation of statistical model factors (principal explanatory component, in this case) by clustering securities in sets in order to maximize asset return correlation within the cluster. At the same time, the clustered securities will have negligible correlations with the rest of the securities’ returns, thus enabling the derived factors to capture maximum risk.</p>
 
 ## Getting Started
 
