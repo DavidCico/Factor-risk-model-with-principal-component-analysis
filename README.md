@@ -80,7 +80,9 @@ end_date = "2020-01-01"
 read_csv = True
 ```
 
-<p align="justify">By running the main script, the resulting csv file '<em>pcaMappingsResults.csv</em>' is generated, containing the mappings coefficients of securities to risk factors.</p>
+<p align="justify">By running the main script, the resulting csv file '<em>pcaMappingsResults.csv</em>' is generated, containing the mappings coefficients of securities to risk factors. Below is a snapshot of the results.</p>
+
+<p align="justify">It can be seen that HK securities are mainly explained by the HSI index, or big US firms such as AMZN of GOOG have a coefficient near 1 for the Nasdaq index ('^NDX') </p>
 
 <p align="center">
 <img src="https://github.com/DavidCico/Factor-risk-model-with-principal-component-analysis/blob/master/mappings_results.JPG" width="1500" height="330">
