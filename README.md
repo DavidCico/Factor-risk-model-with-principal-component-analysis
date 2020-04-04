@@ -75,21 +75,14 @@ read_csv = True
 
 <p align="justify">It can be seen that HK securities are mainly explained by the HSI index, or big US firms such as AMZN of GOOG have a big coefficient of regression with the Nasdaq index ('^NDX'), with some 0.2 components with high yield corporate bonds ('HYG'). The price timeseries of the different securities can then be defined as a linear combination of the different risk factors, with the weight of the components showing their underlying composition compared to these.</p>
 
-<p align="center">
-<img src="https://github.com/DavidCico/Factor-risk-model-with-principal-component-analysis/blob/master/mappings_results.JPG" width="1500" height="330">
-</p>
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://github.com/DavidCico/Factor-risk-model-with-principal-component-analysis/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+<p align="center"> <img src="https://github.com/DavidCico/Factor-risk-model-with-principal-component-analysis/blob/master/mappings_results.JPG" width="1500" height="330"> </p>
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
 * **David Cicoria** - *Initial work* - [DavidCico](https://github.com/DavidCico)
 
-
-See also the list of [contributors](https://github.com/DavidCico/Factor-risk-model-with-principal-component-analysis/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/DavidCico/Modified-QuantStart-Backtester-With-Trading-Strategies/graphs/contributors) who participated in this project.
