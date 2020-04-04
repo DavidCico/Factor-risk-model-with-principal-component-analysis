@@ -39,25 +39,19 @@ https://pypi.org/project/yfinance/ for the yfinance module
     
 <li><div align="justify">'<em>main.py</em>' which is the main Python program, englobing all the different subroutines, and where the different parameters to initialize the pca mappings are specified. </div></li>
 
-<li><div align="justify">'<em>mappings.py</em>' contains the functions of mapping securities to risk factors</div></li>.
+<li><div align="justify">'<em>mappings.py</em>' contains the functions of mapping securities to risk factors. </div></li>
 
-<li><div align="justify">'<em>pcaMappingsResults.csv</em>', the csv file obtained as the result of running the code. It contains the mapping coefficients of securities to risk factors, as well as some information such as 'pct_systematic_ratio' (ratio of variance explained by the PCA), correlation to PCA or mapped VaR</div</li>.
+<li><div align="justify">'<em>pcaMappingsResults.csv</em>', the csv file obtained as the result of running the code. It contains the mapping coefficients of securities to risk factors, as well as some information such as 'pct_systematic_ratio' (ratio of variance explained by the PCA), correlation to PCA or mapped VaR. </div</li>
 
-<li><div align="justify">'<em>portfolio_decomposition.py</em>' is where the main content of the program is located. The different functions in this file, consist of the generation of PCA mappings for the risk factor series, and the linear regression of securities prices to PCA prices, in order to generate the final mapping of securities to factors.</div</li>
+<li><div align="justify">'<em>portfolio_decomposition.py</em>' is where the main content of the program is located. The different functions in this file, consist of the generation of PCA mappings for the risk factor series, and the linear regression of securities prices to PCA prices, in order to generate the final mapping of securities to factors. </div</li>
 
-<li><div align="justify">'<em>securities_and_factors.csv</em>' to be read by the program depending on the user's choice (get data from Yahoo or csv file).</div</li>
+<li><div align="justify">'<em>securities_and_factors.csv</em>' to be read by the program depending on the user's choice (get data from Yahoo or csv file). </div</li>
 
-<li><div align="justify">'<em>var_exp_weighted.py</em>' in which exponentially weighted VaR calculation is implemented.</div</li>
+<li><div align="justify">'<em>var_exp_weighted.py</em>' in which exponentially weighted VaR calculation is implemented. </div</li>
   
-<li><div align="justify">In the '<em>Strategies</em>' directory, different trading strategies are implemented to be used for backtesting:</div></li>
+<li><div align="justify">The '<em>nasdaq_data</em>' directory, contains the list of NASDAQ listed securities, and the 'fetch_nasdaq_data.py' if the user wanna pull data from all the securities in the list. </div></li>
 
-  <ul>
-    <li><div align="justify">'<em>Buy_and_hold_strat.py</em>' in which a simple buy and hold strategy is coded.</div></li>
-  <li><div align="justify">'<em>Moving_average_crossover_strat.py</em>' to generate signals from simple moving averages.</div></li>
-  <li><div align="justify">'<em>ETF_forecast.py</em>' basic forecasting algorithm on ETF such as S&P500 using lagged price data</div></li>
-  </ul>
-  
-</ul>
+<li><div align="justify">Similarly, in the '<em>snp_data</em>' directory, there is a list of S&P500 symbols, with 'fetch_snp_data.py' script that can be run to get the data from all these symbols (if it still exists). </div></li>
 
 ### Running the program
 
