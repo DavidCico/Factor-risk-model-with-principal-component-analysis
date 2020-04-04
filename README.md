@@ -3,6 +3,8 @@
 
 <p align="justify">To elaborate further, the use of the PCA technique enables the formulation of statistical model factors (principal explanatory component, in this case) by clustering securities in sets in order to maximize asset return correlation within the cluster. At the same time, the clustered securities will have negligible correlations with the rest of the securities’ returns, thus enabling the derived factors to capture maximum risk.</p>
 
+<p align="justify">The price of the different securities selected (or from an asset universe in a real case) can then be defined as a linear combination of factor timeseries. As the number of factors is usually small compared to an universe of assets, realizing calculations on only the different factors, such as optimization, recalculation of correlation matrix on daily basis, are improved in terms of computational efficiency as well as getting the ability to plot data in an easier manner. This is usually the main interest of PCA when applied in different fields.</p>
+
 ## Getting Started
 
 <p align="justify">These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.</p>
@@ -82,7 +84,7 @@ read_csv = True
 
 <p align="justify">By running the main script, the resulting csv file '<em>pcaMappingsResults.csv</em>' is generated, containing the mappings coefficients of securities to risk factors. Below is a snapshot of the results.</p>
 
-<p align="justify">It can be seen that HK securities are mainly explained by the HSI index, or big US firms such as AMZN of GOOG have a coefficient near 1 for the Nasdaq index ('^NDX') </p>
+<p align="justify">It can be seen that HK securities are mainly explained by the HSI index, or big US firms such as AMZN of GOOG have a big coefficient of regression with the Nasdaq index ('^NDX'), with some 0.2 components with high yield corporate bonds ('HYG'). The price timeseries of the different securities can then be defined as a linear combination of the different risk factors, with the weight of the components showing their underlying composition compared to these.</p>
 
 <p align="center">
 <img src="https://github.com/DavidCico/Factor-risk-model-with-principal-component-analysis/blob/master/mappings_results.JPG" width="1500" height="330">
