@@ -33,7 +33,7 @@ For more information on the packages and their installation process, check the b
 
 http://www.python.org/getit/ for Python    
 https://www.scipy.org/install.html for the SciPy ecosystem </br>
-https://scikit-learn.org/stable/install.html for Scikit-Learn
+https://scikit-learn.org/stable/install.html for Scikit-Learn </br>
 https://pypi.org/project/yfinance/ for the yfinance module 
 
 
