@@ -32,7 +32,7 @@ For getting the data of price timeseries, we use the yfinance package that can b
 For more information on the packages and their installation process, check the below links:
 
 http://www.python.org/getit/ for Python    
-https://www.scipy.org/install.html for the SciPy ecosystem
+https://www.scipy.org/install.html for the SciPy ecosystem </br>
 https://scikit-learn.org/stable/install.html for Scikit-Learn
 https://pypi.org/project/yfinance/ for the yfinance module 
 
