@@ -62,7 +62,7 @@ https://pypi.org/project/yfinance/ for the yfinance module
 
 The different "<em>.py</em>" files need to be placed in the same folder for the main script to be run. The code is then ready to be used, and just requires running the following command:
 
-    python Main.py
+    python main.py
 
 <p align="justify">The code is well commented and easy to understand. The different parameters calculated and used for the current mappings are:</p>
 
