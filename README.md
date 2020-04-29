@@ -11,7 +11,7 @@
 
 ### Prerequisites
 
-<p align="justify">You need Python 3.x to run the following code.  You can have multiple Python versions (2.x and 3.x) installed on the same system without problems. Python needs to be first installed then SciPy</p>.
+<p align="justify">You need Python 3.x to run the following code.  You can have multiple Python versions (2.x and 3.x) installed on the same system without problems. Python needs to be first installed then SciPy, and finally Scikit-Learn to leverage machine learning models</p>.
 
 In Ubuntu, Mint and Debian you can install Python 3 like this:
 
@@ -21,6 +21,10 @@ Alongside Python, the SciPy packages are also required. In Ubuntu and Debian, th
 
     sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
 
+The Scikit-Learn machine learning library can then be installed with the following command:
+
+    pip install -U scikit-learn
+
 For getting the data of price timeseries, we use the yfinance package that can be installed using the <a href="https://pypi.org/project/pip/">pip</a> package manager:
 
     pip install yfinance
@@ -28,7 +32,8 @@ For getting the data of price timeseries, we use the yfinance package that can b
 For more information on the packages and their installation process, check the below links:
 
 http://www.python.org/getit/ for Python    
-https://www.scipy.org/install.html for the SciPy ecosystem    
+https://www.scipy.org/install.html for the SciPy ecosystem
+https://scikit-learn.org/stable/install.html for Scikit-Learn
 https://pypi.org/project/yfinance/ for the yfinance module 
 
 
